@@ -4,7 +4,7 @@ from dialogs.restaurant_dialog import RestaurantDialog
 
 class MessageHandler:
     def __init__(self, conversation_state):
-        self.restaurant_dialog = RestaurantDialog(conversation_state)
+        self.restaurant_dialog = RestaurantDialog(conversation_state,'GMIYP7KCK7C2RVHWSDSABYBKKO4M52N2')
         # self.travel_dialog = TravelDialog(conversation_state)
         # self.interaction_dialog = InteractionDialog(conversation_state)
 
